@@ -24,7 +24,7 @@ qtb <id> [-o <output_path>] [-b64] [-u]
 
 | Opzione            | Descrizione                                                     |
 | ------------------ | --------------------------------------------------------------- |
-| `-o <output_path>` | Salva l'output in un file specifico anziché stamparlo a schermo. |
+| `-o <output_path>` | Salva l'output nel percorso specificato.                         |
 | `-b64`             | Esegue la decodifica **Base64** del contenuto prima di salvarlo. |
 | `-u`               | Decodifica il contenuto (Base64) e lo **decomprime** (unzip).   |
 | `-h`               | Mostra il messaggio di aiuto.                                   |
@@ -56,5 +56,6 @@ qtb archivio_id -o ./cartella_output/ -u
 ---
 
 ## Licenza
+
 
 Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [`LICENSE`]("https://github.com/HH-Tips/QuickTermBin/blob/main/LICENSE") per maggiori dettagli.
