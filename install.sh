@@ -57,9 +57,8 @@ done
 
 # Check if the version was provided
 if [ -z "$VERSION" ]; then
-  echo "Error: You must specify a version using the -v parameter."
-  echo "Usage: $0 -v <version>"
-  exit 1
+    VERSION=$(available_versions | tail -n 1)
+    read -r -d '' VERSION <<< "${VERSION:1}"
 fi
 
 # Validate the version format (n.n.n)
