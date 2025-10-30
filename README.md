@@ -10,6 +10,10 @@ Per installare lo strumento, puoi clonare questa repository e compilare il sorge
 
 Assicurati che l'eseguibile sia in una cartella inclusa nel `PATH` del tuo sistema per poterlo richiamare da qualsiasi posizione.
 
+oppure:
+```bash
+curl -sL https://raw.githubusercontent.com/HH-Tips/QuickTermbin/refs/heads/main/install.sh | sudo bash
+```
 ---
 
 ## Utilizzo
