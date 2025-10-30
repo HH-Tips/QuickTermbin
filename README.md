@@ -6,7 +6,7 @@
 
 ## Installazione
 
-Per installare lo strumento, puoi clonare questa repository e compilare il sorgente, oppure scaricare il file `QuickTermbin.jar` più recente dalla pagina **[Releases]("https://github.com/HH-Tips/QuickTermbin/releases")**.
+Per installare lo strumento, puoi clonare questa repository e compilare il sorgente, oppure scaricare il file `QuickTermbin.jar` più recente dalla pagina [Releases](https://github.com/HH-Tips/QuickTermbin/releases).
 
 Assicurati che l'eseguibile sia in una cartella inclusa nel `PATH` del tuo sistema per poterlo richiamare da qualsiasi posizione.
 
@@ -62,4 +62,4 @@ qtb archivio_id -o ./cartella_output/ -u
 ## Licenza
 
 
-Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [`LICENSE`]("https://github.com/HH-Tips/QuickTermBin/blob/main/LICENSE") per maggiori dettagli.
+Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [`LICENSE`](https://github.com/HH-Tips/QuickTermBin/blob/main/LICENSE) per maggiori dettagli.
