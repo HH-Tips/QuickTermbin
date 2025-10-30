@@ -1,6 +1,6 @@
-# tbd - Termbin Downloader
+# qtb - Quick Termbin
 
-`tbd` è un semplice e leggero strumento a riga di comando per scaricare file e "paste" dal servizio [termbin.com](https://termbin.com) direttamente nel tuo terminale.
+`qtb` è un semplice e leggero strumento a riga di comando per scaricare file e "paste" dal servizio [termbin.com](https://termbin.com) direttamente nel tuo terminale.
 
 ---
 
@@ -17,7 +17,7 @@ Assicurati che l'eseguibile sia in una cartella inclusa nel `PATH` del tuo siste
 Il comando base richiede semplicemente l'ID del file da scaricare. L'output verrà stampato direttamente sullo standard output.
 
 ```bash
-tbd <id> [-o <output_path>] [-b64] [-u]
+qtb <id> [-o <output_path>] [-b64] [-u]
 ```
 
 ### Opzioni disponibili
@@ -35,22 +35,22 @@ tbd <id> [-o <output_path>] [-b64] [-u]
 
 **Scaricare un file e visualizzarlo nel terminale**
 ```bash
-tbd paste_id
+qtb paste_id
 ```
 
 **Scaricare un file e salvarlo in una directory specifica**
 ```bash
-tbd paste_id -o ./output/mio_file.txt
+qtb paste_id -o ./output/mio_file.txt
 ```
 
 **Scaricare un file codificato in Base64 (es. un'immagine) e decodificarlo**
 ```bash
-tbd immagine_id -o immagine_scaricata.png -b64
+qtb immagine_id -o immagine_scaricata.png -b64
 ```
 
 **Scaricare, decodificare e decomprimere un archivio .zip**
 ```bash
-tbd archivio_id -o ./cartella_output/ -u
+qtb archivio_id -o ./cartella_output/ -u
 ```
 
 ---

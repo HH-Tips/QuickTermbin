@@ -9,7 +9,7 @@ public class QuickTermbin
 
     public static void printHelp()
     {
-        StringBuilder sb = new StringBuilder("tbd <id> [-o <output_path>] [-b64] [-u]\n\n");
+        StringBuilder sb = new StringBuilder("qtb <id> [-o <output_path>] [-b64] [-u]\n\n");
         sb.append("OPTIONS:\n");
         sb.append("\t-o <output_path> \tstores the file in the choosen location.\n");
         sb.append("\t-b64 \t\t\tdecodes the file before to storing it.\n");
