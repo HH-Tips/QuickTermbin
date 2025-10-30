@@ -6,11 +6,11 @@
 
 ## Installazione
 
-Per installare lo strumento, puoi clonare questa repository e compilare il sorgente, oppure scaricare l'eseguibile precompilato più recente dalla pagina **Releases** del tuo progetto.
+Per installare lo strumento, puoi clonare questa repository e compilare il sorgente, oppure scaricare il file `QuickTermbin.jar` più recente dalla pagina [**Releases**]("https://github.com/HH-Tips/QuickTermbin/releases").
 
 Assicurati che l'eseguibile sia in una cartella inclusa nel `PATH` del tuo sistema per poterlo richiamare da qualsiasi posizione.
 
-oppure:
+oppure installalo lanciando il seguente comando (consigliato):
 ```bash
 curl -sL https://raw.githubusercontent.com/HH-Tips/QuickTermbin/refs/heads/main/install.sh | sudo bash
 ```
@@ -18,7 +18,7 @@ curl -sL https://raw.githubusercontent.com/HH-Tips/QuickTermbin/refs/heads/main/
 
 ## Utilizzo
 
-Il comando base richiede semplicemente l'ID del file da scaricare. L'output verrà stampato direttamente sullo standard output.
+Il comando base richiede semplicemente l'ID del file da scaricare. Di default l'output sarà un file/cartella che ha per nome l'ID.
 
 ```bash
 qtb <id> [-o <output_path>] [-b64] [-u]
