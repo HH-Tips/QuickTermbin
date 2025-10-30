@@ -57,4 +57,4 @@ qtb archivio_id -o ./cartella_output/ -u
 
 ## Licenza
 
-Questo progetto è rilasciato sotto la licenza MIT. Vedi il file `LICENSE` per maggiori dettagli.
+Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [`LICENSE`]("https://github.com/HH-Tips/QuickTermBin/blob/main/LICENSE") per maggiori dettagli.
