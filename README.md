@@ -37,7 +37,7 @@ qtb <id> [-o <output_path>] [-b64] [-u]
 
 ## Esempi
 
-**Scaricare un file e visualizzarlo nel terminale**
+**Scaricare un file e salvarlo in `./paste_id`**
 ```bash
 qtb paste_id
 ```
