@@ -1,6 +1,7 @@
 # qtb - Quick Termbin
 
 `qtb` è un semplice e leggero strumento a riga di comando per scaricare file e "paste" dal servizio [termbin.com](https://termbin.com) direttamente nel tuo terminale.
+Disponibile in [Python](https://github.com/HH-Tips/QuickTermbinPy) e [Java](https://github.com/HH-Tips/QuickTermbin).
 
 ---
 
@@ -63,3 +64,4 @@ qtb archivio_id -o ./cartella_output/ -u
 
 
 Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [`LICENSE`](https://github.com/HH-Tips/QuickTermBin/blob/main/LICENSE) per maggiori dettagli.
+
