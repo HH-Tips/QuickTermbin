@@ -6,7 +6,7 @@ Disponibile in [Python](https://github.com/HH-Tips/QuickTermbinPy) e [Java](http
 ---
 
 ## Requisiti
-Per poter utilizzare `qtb` hai bisogno dei seguenti pacchetti: `python3`, `wget`, `curl`, `base64`, `unzip`.
+Per poter utilizzare `qtb` hai bisogno dei seguenti pacchetti: `java`, `wget`, `curl`, `base64`, `unzip`.
 
 ## Installazione
 
@@ -67,5 +67,6 @@ qtb archivio_id -o ./cartella_output/ -u
 
 
 Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [`LICENSE`](https://github.com/HH-Tips/QuickTermBin/blob/main/LICENSE) per maggiori dettagli.
+
 
 
